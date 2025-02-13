@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khu Vui Chơi Giải Trí</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Thanh công cụ -->
+    <nav>
+        <ul>
+            <li><a href="#trang-chu">Trang Chủ</a></li>
+            <li><a href="#gioi-thieu">Giới Thiệu</a></li>
+            <li><a href="#dich-vu">Dịch Vụ và Trò Chơi</a></li>
+            <li><a href="#gia-ve">Giá Vé và Khuyến Mãi</a></li>
+            <li><a href="#dat-ve">Đặt Vé và Đăng Ký</a></li>
+            <li><a href="#tin-tuc">Tin Tức và Sự Kiện</a></li>
+            <li><a href="#lien-he">Liên Hệ và Hỗ Trợ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Trang Chủ -->
+    <section id="trang-chu">
+        <h1>Trang Chủ</h1>
+        <div class="media">
+            <img src="hinh-anh.jpg" alt="Hình ảnh khu vui chơi">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p>Giới thiệu tổng quan về dự án...</p>
+    </section>
+
+    <!-- Giới Thiệu -->
+    <section id="gioi-thieu">
+        <h1>Giới Thiệu</h1>
+        <p>Thông tin về ý tưởng, quy mô...</p>
+        <p>Đơn vị đầu tư, nhà phát triển dự án...</p>
+    </section>
+
+    <!-- Dịch Vụ và Trò Chơi -->
+    <section id="dich-vu">
+        <h1>Dịch Vụ và Trò Chơi</h1>
+        <ul>
+            <li>Danh sách các trò chơi...</li>
+            <li>Thông tin về độ tuổi phù hợp, mức giá...</li>
+            <li>Dịch vụ ăn uống, nghỉ ngơi...</li>
+        </ul>
+    </section>
+
+    <!-- Giá Vé và Khuyến Mãi -->
+    <section id="gia-ve">
+        <h1>Giá Vé và Khuyến Mãi</h1>
+        <table>
+            <tr>
+                <th>Loại Vé</th>
+                <th>Giá</th>
+            </tr>
+            <tr>
+                <td>Vé Người Lớn</td>
+                <td>200,000 VND</td>
+            </tr>
+            <tr>
+                <td>Vé Trẻ Em</td>
+                <td>100,000 VND</td>
+            </tr>
+        </table>
+        <p>Ưu tiên theo nhóm, gia đình...</p>
+    </section>
+
+    <!-- Đặt Vé và Đăng Ký -->
+    <section id="dat-ve">
+        <h1>Đặt Vé và Đăng Ký</h1>
+        <form>
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="tel" id="phone" name="phone"><br>
+            <input type="submit" value="Đặt Vé">
+        </form>
+    </section>
+
+    <!-- Tin Tức và Sự Kiện -->
+    <section id="tin-tuc">
+        <h1>Tin Tức và Sự Kiện</h1>
+        <p>Cập nhật các sự kiện...</p>
+        <p>Tin tức về trò chơi...</p>
+    </section>
+
+    <!-- Liên Hệ và Hỗ Trợ -->
+    <section id="lien-he">
+        <h1>Liên Hệ và Hỗ Trợ</h1>
+        <form>
+            <label for="consultation">Đăng ký nhận tư vấn:</label>
+            <input type="text" id="consultation" name="consultation"><br>
+            <input type="submit" value="Gửi">
+        </form>
+        <p>Địa chỉ: 123 Đường ABC, Quận XYZ, TP. HCM</p>
+        <p>Hotline: 0123 456 789</p>
+        <p>Email: info@khuvuichoi.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
